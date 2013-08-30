@@ -1,0 +1,28 @@
+== Description ==
+
+Custom LittleBigFund mods to WooCommerce Subscriptions
+
+== Requires ==
+	* WooCommerce 
+	* WooCommerce Stripe Gateway Extension
+	* WooCommerce Subscriptions Extension 
+	
+== How To ==
+class-wc-subscriptions-manager.php
+	public static function create_pending_subscription_for_order
+		customize expiration
+
+	public static function calculate_subscription_expiration_date
+		customize expiration
+		
+class-wc-subscriptions-order.php
+	public static function calculate_next_payment_date
+		customize expiration
+		
+class-wc-subscriptions-product.php
+	public static function get_expiration_date
+		customize expiration
+		
+
+== TO DO ==
+Any of these that have actions or filters should be handled that way instead of by customizing core WooCommerce code.

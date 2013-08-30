@@ -1,0 +1,8 @@
+/* .single-product .product .summary { width: auto; } */
+.product .images {display:none;} 
+.woocommerce #content div.product div.summary.entry-summary { float:none } 
+
+.woocommerce div.product div.summary.entry-summary { float:none } 
+/*.woocommerce-page div.product div.summary.entry-summary { float:left } 
+.woocommerce #content div.product div.summary.entry-summary { float:left } 
+.woocommerce-page #content div.product div.summary.entry-summary { float:left } /*
